@@ -32,9 +32,10 @@
               "RelativeDocumentMoniker": "calculadora01\\Program-2.cs",
               "ToolTip": "C:\\Users\\hpsouza1\\source\\repos\\calculadora01\\calculadora01\\Program-2.cs",
               "RelativeToolTip": "calculadora01\\Program-2.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowFYAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T17:17:14.176Z"
+              "WhenOpened": "2024-09-30T17:17:14.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +45,7 @@
               "RelativeDocumentMoniker": "calculadora01\\Calculadora.cs",
               "ToolTip": "C:\\Users\\hpsouza1\\source\\repos\\calculadora01\\calculadora01\\Calculadora.cs",
               "RelativeToolTip": "calculadora01\\Calculadora.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAACYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T12:16:39.246Z",
               "EditorCaption": ""

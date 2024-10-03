@@ -23,22 +23,39 @@ public class Calculadora
     // Método para exibir o menu de operações e retornar a escolha
     public int MostrarMenu()
     {
-        Console.WriteLine("Selecione a operação:");
-        Console.WriteLine("1 - Adição");
-        Console.WriteLine("2 - Subtração");
-        Console.WriteLine("3 - Multiplicação");
-        Console.WriteLine("4 - Divisão");
+        int escolha;
+        while (true)
+        {
+            try
+            {
+                Console.WriteLine("Selecione a operação:");
+                Console.WriteLine("1 - Adição");
+                Console.WriteLine("2 - Subtração");
+                Console.WriteLine("3 - Multiplicação");
+                Console.WriteLine("4 - Divisão");
+                escolha = Convert.ToInt32(Console.ReadLine());
 
-        int escolha = Convert.ToInt32(Console.ReadLine());
+                if (escolha >= 1 && escolha <= 4)
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Erro: Selecione uma operação válida entre 1 e 4.");
+                }
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("Erro: Digite um número válido.");
+            }
+        }
         return escolha;
     }
     //----------------------------------------------------------------
 
     public static void Main()
     {
-        // Instancia a classe Calculadora
         Calculadora calc = new Calculadora();
-
         bool continuar = true;
 
         while (continuar)
@@ -52,16 +69,40 @@ public class Calculadora
             }
             Console.WriteLine();
 
-            Console.Write("Digite o primeiro número: ");
-            double numero1 = Convert.ToDouble(Console.ReadLine());
+            double numero1 = 0, numero2 = 0;
 
-            Console.Write("Digite o segundo número: ");
-            double numero2 = Convert.ToDouble(Console.ReadLine());
+            // Validação para o primeiro número
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Digite o primeiro número: ");
+                    numero1 = Convert.ToDouble(Console.ReadLine());
+                    break;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Erro: Por favor, insira um número válido.");
+                }
+            }
+
+            // Validação para o segundo número
+            while (true)
+            {
+                try
+                {
+                    Console.Write("Digite o segundo número: ");
+                    numero2 = Convert.ToDouble(Console.ReadLine());
+                    break;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Erro: Por favor, insira um número válido.");
+                }
+            }
+
             Console.WriteLine();
-
-            // Chamando metodo do Menu
             int escolha = calc.MostrarMenu();
-
             double resultado = 0;
 
             switch (escolha)
