@@ -1,0 +1,14 @@
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\bin\Debug\net8.0\calculadora01.exe
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\bin\Debug\net8.0\calculadora01.deps.json
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\bin\Debug\net8.0\calculadora01.runtimeconfig.json
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\bin\Debug\net8.0\calculadora01.dll
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\bin\Debug\net8.0\calculadora01.pdb
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\obj\Debug\net8.0\calculadora01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\obj\Debug\net8.0\calculadora01.AssemblyInfoInputs.cache
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\obj\Debug\net8.0\calculadora01.AssemblyInfo.cs
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\obj\Debug\net8.0\calculadora01.csproj.CoreCompileInputs.cache
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\obj\Debug\net8.0\calculadora01.dll
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\obj\Debug\net8.0\refint\calculadora01.dll
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\obj\Debug\net8.0\calculadora01.pdb
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\obj\Debug\net8.0\calculadora01.genruntimeconfig.cache
+C:\Users\hpsouza1\source\repos\calculadora01\calculadora01\obj\Debug\net8.0\ref\calculadora01.dll
